@@ -1,10 +1,6 @@
-from abc import ABC, abstractmethod
+class Car():
+    def __init__(self, nengine, nbattery)
+    __engine = nengine
+    __battery = nbattery
 
-
-class Car(ABC):
-    def __init__(self, last_service_date):
-        self.last_service_date = last_service_date
-
-    @abstractmethod
-    def needs_service(self):
-        pass
+    
